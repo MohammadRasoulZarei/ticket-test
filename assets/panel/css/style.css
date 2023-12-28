@@ -1,0 +1,346 @@
+*{
+padding:0px;
+margin:0px;
+}
+li{
+  list-style:none;
+  margin-top:5px;
+}
+@font-face {
+    font-family: "byekan";
+    src: url("fonts/Yekan.eot?#") format("eot"), url("fonts/Yekan.woff") format("woff"), url("fonts/Yekan.ttf") format("truetype");
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: bold;
+	src: url('../fonts/eot/IRANSansWeb_Bold.eot');
+	src: url('../fonts/eot/IRANSansWeb_Bold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/woff2/IRANSansWeb_Bold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../fonts/woff/IRANSansWeb_Bold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/ttf/IRANSansWeb_Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 500;
+	src: url('../fonts/eot/IRANSansWeb_Medium.eot');
+	src: url('../fonts/eot/IRANSansWeb_Medium.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/woff2/IRANSansWeb_Medium.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../fonts/woff/IRANSansWeb_Medium.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/ttf/IRANSansWeb_Medium.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 300;
+	src: url('../fonts/eot/IRANSansWeb_Light.eot');
+	src: url('../fonts/eot/IRANSansWeb_Light.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/woff2/IRANSansWeb_Light.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../fonts/woff/IRANSansWeb_Light.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/ttf/IRANSansWeb_Light.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 200;
+	src: url('../fonts/eot/IRANSansWeb_UltraLight.eot');
+	src: url('../fonts/eot/IRANSansWeb_UltraLight.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/woff2/IRANSansWeb_UltraLight.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../fonts/woff/IRANSansWeb_UltraLight.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/ttf/IRANSansWeb_UltraLight.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: normal;
+	src: url('../fonts/eot/IRANSansWeb.eot');
+	src: url('../fonts/eot/IRANSansWeb.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/woff2/IRANSansWeb.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../fonts/woff/IRANSansWeb.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/ttf/IRANSansWeb.ttf') format('truetype');
+}
+
+body{
+width:100%;
+background:#eeeff1;
+overflow-x:hidden;
+font-family:IRANSans;
+}
+/**login page**/
+#login-box{
+max-width:400px;
+width:400px;
+height:400px;
+background:#fff;
+margin:0 auto;
+border-radius:15px;
+}
+#head-login{
+height:50px;
+color:#fff;
+background-color:#07C8B3;
+overflow:hidden;
+text-align:center;
+line-height:70px;
+font-size:20px;
+height:75px;
+width:400px;
+font-weight:bold;
+}
+#form-login{
+margin-top:70px;
+}
+#form-login .form-control{
+width:330px;
+height:45px;
+display:block;
+margin:20px auto;
+}
+#form-login .btn-danger{
+width:330px;
+height:45px;
+margin:30px auto;
+display:block;
+}
+/**panel page**/
+#main-menu{
+background:#089686;
+position:fixed;
+width:200px;
+min-height:100%;
+height:auto;
+right:0;
+z-index: 100;
+margin:0;
+}
+#top-menu{
+width:100%;
+position:fixed;
+background:#089686;
+height:50px;
+top:0;
+z-index:50;
+overflow: hidden;
+display:none;
+}
+
+#logo-panel{
+color:#fff;
+}
+#logo-panel h3{
+margin-right:20px;
+line-height:10px;
+font-size:20px;
+}
+#logo-panel h3 a{
+color:#fff;
+text-decoration:none;
+}
+#menu-item{
+margin-top:40px;
+}
+#menu-item ul{
+margin:0px;
+padding:0px;
+list-style:none;
+color:#fff;
+}
+#menu-item li a{
+color:#fff;
+text-decoration:none;
+margin-right:20px;
+}
+#menu-item li{
+height:50px;
+padding:10px;
+}
+#menu-item li:hover{
+background-color:#07A997;
+}
+.submenu{
+ background-color:#07A997;
+}
+#profile-item{
+position:absolute;
+right:0px;
+bottom:10px;
+color:#fff;
+width:100%;
+padding-right:15px;
+font-size:16px;
+}
+#profile-item a{
+color:#fff;
+text-decoration:none;
+}
+#profile-item p{
+display:inline;
+float:right;
+}
+#profile-item #logout,#profile-item #editprfile{
+float:left;
+margin-left:5px;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-default{
+	display:block !important;
+	}
+	 .row-main{
+	  display:none;
+	 }
+	
+}
+@media screen and (max-width: 810px) {
+    #profile-item p{
+	display:inline-block;
+	}
+
+}
+.navbar-default{
+background-color:#089686 !important;
+}
+.navbar-nav li  a{
+ color:#fff !important;
+}
+.navbar-nav  a:focus{
+background-color:#07A997 !important;
+}
+.navbar-nav .dropdown .dropdown-menu{
+background-color:#07A997 !important;
+}
+.navbar-toggle {
+    float: right;
+    margin-right: 15px;
+	background-color:#089686;
+}
+.name-prfile{
+float:right;
+}
+.profile-icon{
+float:left;
+}
+/**dashboard**/
+#statistics-posts h3{
+	border-bottom:1px solid #000;
+	padding-bottom:10px;
+
+
+}
+/**page newpost**/
+.main-content,.btn-post{
+ padding:20px;
+}
+#new-post-box{
+margin:15px;
+}
+.title-new-post{
+margin-bottom:30px;
+}
+/**allpost page**/
+#all-post-box{
+margin:15px;
+}
+
+#serach-post-box{
+width:300px;
+margin-top:15px;
+}
+.table-responsive{
+margin-top:20px;
+}
+#all-post-box .table-responsive th{
+border-top:none !important;
+background-color:#089686 !important;
+}
+
+/**panel**/
+#panel-box{
+width:400px;
+margin:40px 20px;
+}
+#panel-box .user-panel .panel-heading{
+ background-color:#089686;
+ padding:15px;
+ color:#fff;
+}
+#panel-box .user-panel .panel-heading span{
+float:left;
+}
+#panel-box .user-panel .panel-body .table td{
+border-top:none;
+}
+#panel-box .user-panel .panel-body  .btn-success{
+ background-color:#089686;
+
+}
+/**js css**/
+.error{
+border:1px solid red;
+}
+.errormsg{
+color:red;
+}
+.successmsg{
+color:green;
+}
+
+/*********template pages**********/
+.btn-select{
+margin-top:20px;
+background-color:#089686;
+
+}
+#menu-item a{
+	display: block;
+	height: 100%;
+}
+.pt-15{
+	padding: 15px;
+}
+.float-left{
+	float: left;
+}
+.dir-left{
+	direction: ltr;
+
+}
+.amount {
+	background-color: #0f74a8;
+}
+.amount:first-child{
+	padding: 0 !important;
+}
+.clear{
+	clear: both;
+}
+th{
+	text-align: left;
+	direction: ltr;
+}
+.height-100{
+	height:100%;
+}
+.table-success{
+	background: radial-gradient(white, #00000075);
+	overflow: hidden;
+	color: black;
+	border-radius: 7px;
+}
+.div-center td{
+	overflow-wrap: anywhere;
+}
+#menu-item li{
+	padding: 0;
+}
+#menu-item li a{
+	padding: 10px;
+}
+.div-center input{
+	width: 18px;
+	height: 18px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
